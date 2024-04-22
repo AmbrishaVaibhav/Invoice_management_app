@@ -1,0 +1,57 @@
+.r {
+    position: relative;
+   
+    transform: translateX(0%);
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+border-width: 5px;
+
+   
+  }
+
+  .customerOrderId,.salesOrg{
+     width: 24%;
+     height:20px;
+     
+  }
+  .distributionChannel{
+    width:48%;
+    height:20px;
+   
+  }
+
+  .customerNumber{
+    width:24%;
+    height:20px;
+   
+  }
+  .companyCode{
+    width:24%;
+    height:20px;
+    
+  }
+  .orderCurrency,.amountInUSD,.orderCreationDate{
+    width:15.2%;
+    margin: 3.2px;
+    height:20px;
+  }
+
+  .b1{
+    background-color: #fc7500;;
+
+  }
+  .b2{
+    background-color: #db4437;
+  }
+   .b1{
+    width:49.8%;
+    height:20px;
+    height:30px;
+    border: none;
+   }
+   .b2{
+         width: 48.5%;
+         border:none;
+         height:30px;
+         margin-left: 4px;
+   }

@@ -1,0 +1,29 @@
+.abc{
+    display: inline;
+    width:20px;
+}
+.hrc{
+    margin-left: 350px;
+    height: 5px;
+    display:inline;
+}
+.Invoice{
+    font-weight: bold;
+    color: #db4437;
+    display:block;
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: 10px;
+  }
+  
+  .privacyPolicy {
+    color: blue;
+    margin-right: 4px;
+  }

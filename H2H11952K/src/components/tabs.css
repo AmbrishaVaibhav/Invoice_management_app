@@ -1,0 +1,148 @@
+/* tabpage.css */
+
+.navbar {
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link {
+    position: relative;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: grey;
+    text-transform: uppercase;
+  }
+  
+  .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+  }
+  
+  .tab-content {
+    background-color: grey;
+  }
+  
+  .search-container {
+    margin-left: 520px;
+    margin-top: 10px;
+    position: relative;
+    height: 50px;
+    width:290px;
+  }
+  
+  .search-field {
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    height:30px;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width:100px;
+    background-color: #8fd163;
+  }
+  .popup-form {
+    position: absolute;
+    top: 190px; /* Adjust the top position as needed */
+    margin-left: 895px;
+    transform: translateX(0%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width:240px;
+    
+    border-width: 5px;
+    color: gray;
+  }
+
+  .input-container {
+    margin: 5px;
+    
+  }
+  
+  .coi,
+  .cn,
+  .so {
+    width: 230px;
+  
+    
+  }
+  
+  .button-container {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-button1,
+  .cancel-button {
+    width: 230px;
+  }
+  .r {
+    position: absolute;
+   
+    transform: translateX(0%);
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+border-width: 5px;
+   
+  }
+  .r1{
+    margin: 5px;
+  }
+  .customerOrderId,.salesOrg{
+     width: 23%;
+     margin: 3px;
+  }
+  .distributionChannel{
+    width:48%;
+    margin: 3px;
+  }
+  .r2{
+    margin:5px;
+  }
+  .customerNumber{
+    width:23%;
+    margin: 3px;
+  }
+  .companyCode{
+    width:23%;
+    margin: 3px;
+  }
+  .orderCurrency,.amountInUSD,.orderCreationDate{
+    width:15%;
+  }
+  .r3{
+    margin: 5px;
+  }
+   .b1,.b2{
+    width:49%;
+    margin:3px;
+   }
+  
+  
+ 
+  

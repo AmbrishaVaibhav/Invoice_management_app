@@ -1,0 +1,62 @@
+/* CustomDataGrid.css */
+
+.MuiDataGrid-virtualScroller::-webkit-scrollbar {
+    height: 15px;
+}
+
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-track {
+    background-color: grey;
+    /* Set the background color of the track */
+}
+
+.MuiDataGrid-virtualScroller::-webkit-scrollbar-thumb {
+    background-color: #5e5e5e;
+    /* Set the color of the scrollbar thumb */
+    border-radius: 8px;
+    /* Apply a rounded border radius to the thumb */
+}
+
+.MuiDataGrid-cell {
+    color: white;
+}
+
+.MuiDataGrid-columnHeader {
+    color: white;
+}
+.MuiCheckbox-colorPrimary{
+    color: white !important;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root:checked {
+    color: orange !important;
+  }
+
+  .dgcon {
+    position: relative;
+  }
+  
+  .datagrid-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .datagrid-button {
+    padding: 8px 16px;
+    background-color: #fc7500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
+ 
+  

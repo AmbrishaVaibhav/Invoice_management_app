@@ -1,0 +1,10 @@
+.page{
+    width: 95%;
+    margin: 20px;
+}
+.header{
+  display: block;
+}
+.body{
+  background-color: #a9a9a9;
+}
